@@ -1,0 +1,62 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+main{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.container .row{
+    width: 60%;
+    height: 45vh;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    background-image: url(https://www.wallpapertip.com/wmimgs/40-400213_background-image-no-copyright.jpg);
+    background-repeat: no-repeat;
+}
+.container .row .col-100{
+    margin: 0 auto;
+    margin-top: 30px;
+    justify-content: center;
+}
+.container .row .col-100 h2{
+    justify-content: center;
+    text-align: center;
+    color: burlywood;
+    font-family: cursive;
+}
+.container .row .col-100 input{
+    justify-content: center;
+    text-align: center;
+    background-color: azure;
+    color: black;
+    font-family: cursive;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.container .row .col-100 h4{
+    justify-content: center;
+    text-align: center;
+    color: burlywood;
+    font-family: cursive;
+}
+.container .row .col-100 button{
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(42, 157, 165);
+    font-family: cursive;
+    color: black;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.container .row .col-100 button:hover{
+    background-color: black;
+    color: rgb(42, 157, 165);
+}
